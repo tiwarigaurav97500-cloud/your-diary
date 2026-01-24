@@ -1,15 +1,41 @@
+/* Basic Page Styling */
 body {
-  background: #ffe6f0;
-  font-family: Arial;
+  background-color: #ffe6f0;  /* soft pink background */
+  font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
+  margin: 0;
 }
 
 h1 {
   color: #e91e63;
+  margin-bottom: 10px;
 }
 
-audio {
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Recording Box Styling */
+.recording {
+  background-color: #fff0f5;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   width: 90%;
-  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.recording h2 {
+  color: #d81b60;
+  margin-bottom: 10px;
+}
+
+/* Audio Player Styling */
+audio {
+  width: 100%;
+  outline: none;
 }
